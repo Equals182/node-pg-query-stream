@@ -21,7 +21,7 @@ class PgQueryStream extends Readable {
 
   submit (connection) {
     this.cursor.submit(connection)
-    return this
+    return null
   }
 
   close (callback) {
